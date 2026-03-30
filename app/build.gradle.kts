@@ -38,6 +38,7 @@ android {
 }
 
 dependencies {
+    implementation("com.mapbox.search:mapbox-search-android:2.14.0-beta.1")
     implementation("com.mapbox.maps:android-ndk27:11.20.2")
     implementation("com.mapbox.extension:maps-compose-ndk27:11.20.2")
     implementation(libs.androidx.core.ktx)
